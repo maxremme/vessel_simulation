@@ -35,7 +35,7 @@ def main():
                 key="Gedser_Rostock_Ferry",
                 value=json.dumps(maritime_data),
             )
-            sleeptime = 30
+            sleeptime = 10
             logging.info("Produced... Sleeping for... {sleeptime} seconds")
             time.sleep(sleeptime)
 
