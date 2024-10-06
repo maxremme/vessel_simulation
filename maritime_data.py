@@ -7,7 +7,7 @@ response = requests.get(
     params={
         "latitude": "54.544587",
         "longitude": "10.227487",
-        "current": "wave_height",
+        "current": "wave_height,wave_direction,ocean_current_velocity,ocean_current_direction",
     },
 )
 
