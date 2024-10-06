@@ -2,6 +2,7 @@ import requests
 import json
 from quixstreams import Application
 
+# Pull maritime data from lat long from Ferry route Rostock-Gedser in the Baltic Sea
 response = requests.get(
     "https://marine-api.open-meteo.com/v1/marine",
     params={
