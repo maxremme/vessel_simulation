@@ -31,8 +31,8 @@ def main():
             maritime_data = get_maritime_data()
             logging.debug("Got maritime data: %s", maritime_data)
             producer.produce(
-                topic="maritime_data_test",
-                key="Gedser",
+                topic="maritime_data_for_simulation",
+                key="Gedser_Rostock_Ferry",
                 value=json.dumps(maritime_data),
             )
             sleeptime = 30
