@@ -59,7 +59,7 @@ def main():
                 value=json.dumps(maritime_data),
             )
             sleeptime = 10
-            logging.info("Produced... Sleeping for... {sleeptime} seconds")
+            logging.info("Produced... Sleeping for 10 seconds")
             time.sleep(sleeptime)
 
 
