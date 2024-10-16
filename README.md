@@ -92,9 +92,9 @@ WaveSimulation/
    - The GUI will display wave height, wave direction, and other maritime data.
 
 ## Screenshots
-![Maritime Data Waiting for New Data Display](java_gui/src/images/waitig_for_data.png)
+![Maritime Data Waiting for New Data Display](java_gui/src/images/waiting_for_data.png)
 
-![Live Maritime Data Display](java_gui/src/images/incomin_data.png)
+![Live Maritime Data Display](java_gui/src/images/incoming_data.png)
 
 ## Contributing
 Feel free to contribute to the project by submitting issues or pull requests.
